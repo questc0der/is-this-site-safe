@@ -52,6 +52,8 @@ export default function RootLayout({
           defer
           dangerouslySetInnerHTML={{ __html: monetagScript }}
         />
+        {/* Monetag verification tag */}
+        <meta name="monetag" content="3c1699ebada5c208ac927b4b9a4d834f" />
       </head>
       <body className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50 text-slate-900">
         <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pb-16 pt-10 sm:px-6 lg:px-8">
