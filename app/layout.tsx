@@ -54,6 +54,24 @@ export default function RootLayout({
         />
         {/* Monetag verification tag */}
         <meta name="monetag" content="c71864620464409c578654fd7a6d2a42" />
+        {/* Monetag zones */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(s){s.dataset.zone='10558399',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))",
+          }}
+        />
+        <script
+          src="https://3nbf4.com/act/files/tag.min.js?z=10558401"
+          data-cfasync="false"
+          async
+        />
+        <script
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="207958"
+          async
+          data-cfasync="false"
+        />
       </head>
       <body className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50 text-slate-900">
         <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pb-16 pt-10 sm:px-6 lg:px-8">
